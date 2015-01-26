@@ -4,7 +4,7 @@ Wrapper for ghostscript in node.js.
 
 ## Install
 
-    npm install https://github.com/musubu/node-ghostscript/tarball/master
+    npm install https://github.com/ericmaciel/node-ghostscript/tarball/master
 
 ## Usage
 
@@ -47,6 +47,7 @@ Wrapper for ghostscript in node.js.
 * `nopause`
 * `output`
 * `r`
+* `c`
 * `quiet`
 * `firstpage`
 * `lastpage`

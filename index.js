@@ -143,4 +143,9 @@ gs.prototype.resolution = function(xres, yres) {
 
 gs.prototype.r = gs.prototype.res = gs.prototype.resolution;
 
+gs.prototype.c = function(code) {
+  this.options.push('-c "' + code + '"');
+  return this;
+}
+
 module.exports = create;
